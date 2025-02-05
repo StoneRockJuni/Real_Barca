@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Заголовок страницы</title>
+    <link rel="stylesheet" href="./styles/style.css">
+
+    <meta property="og:title" content="Заголовок страницы в OG">
+    <meta property="og:description" content="Описание страницы в OG">
+    <meta property="og:image" content="https://example.com/image.jpg">
+    <meta property="og:url" content="https://example.com/">
+</head>
+
+<body>
+    <header>
+        <h1>Предсказатель будущего⌚️</h1>
+        <p>ВЫБЕРИ СТОРОНУ</p>
+    </header>
+    <main>
+        <article>
+            <section>
+                <h2>Кто выиграет?</h2>
+                <p>Выбирай с умом!</p>
+                <img src="https://upload.wikimedia.org/wikipedia/ru/thumb/8/8a/FC_Real_Madrid_Logo.svg/800px-FC_Real_Madrid_Logo.svg.png"
+                    height="200" alt="Реал Мадрид">
+                <button onclick="document.getElementById('result').innerHTML = 'ВЫИГРАЕТ РЕАЛ🥳'">Выбрать Реал
+                    Мадрид</button>
+                <img src="https://pictures.cdn.sports.ru/odPyT2UQPW63Xod-WbqYzGos3QDGRuzd_pjX27XypV4/fill/400/400/no/1/czM6Ly9zcG9ydHMtYmFja2VuZC1zdGF0LXBpY3R1cmVzLXh3enltd3NyL1RFQU0vbWFpbi9iYXJjZWxvbmEucG5n.png"
+                    height="200" alt="Barcelona">
+                <button onclick="document.getElementById('result').innerHTML = 'ВЫИГРАЕТ МАДРИД😈'">Выбрать
+                    Барсу</button>
+                <p id="result"></p>
+                <b>Выбрав клуб, сайт предскажет будущее и даст результат.</b>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <p>Сделал: Юсуф</p>
+    </footer>
+    <!-- сюда можно подключить jquery <script src="scripts/app.js" defer></script> -->
+</body>
+
+</html>
